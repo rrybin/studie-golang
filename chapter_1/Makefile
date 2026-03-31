@@ -9,3 +9,9 @@ vet: fmt
 
 build: vet
 	go build
+
+test_file:
+	touch tst_file
+
+clean:
+	rm -f tst_file
