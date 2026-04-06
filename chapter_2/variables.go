@@ -17,6 +17,7 @@ func main() {
 	str()
 	conversion()
 	conversionTwo()
+	declarationVriables()
 }
 
 // Complex digital
@@ -54,4 +55,11 @@ func conversionTwo() {
 	var sum3 int = x + int(b)
 	var sum4 byte = byte(x) + b
 	fmt.Println(sum3, " ", sum4)
+}
+
+func declarationVriables() {
+	var x = 10
+	var z, y int = 20, 30
+	var i, j = 40, "hello"
+	fmt.Println(x, z, y, i, j)
 }
